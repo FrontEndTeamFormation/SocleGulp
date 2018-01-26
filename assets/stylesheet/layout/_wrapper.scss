@@ -1,0 +1,27 @@
+/*---------------------------------------*\
+  Layout/ wrapper
+\*---------------------------------------*/
+
+// = fixed wrapper
+// --------------------
+.wrapper {
+  @include wrapper-fixed();
+
+  @media only screen and (min-width: $screen-sm-min) {
+    width: $wrapper-sm;
+  }
+  @media only screen and (min-width: $screen-md-min) {
+    width: $wrapper-md;
+  }
+  @media only screen and (min-width: $screen-lg-min) {
+    width: $wrapper-lg;
+  }
+}
+
+// = fluid wrapper
+// --------------------
+.wrapper-fluid {
+  max-width: $wrapper + $grid-gutter-width;
+  @include wrapper-fixed();
+  width: 100%;
+}

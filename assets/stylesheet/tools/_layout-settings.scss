@@ -1,0 +1,55 @@
+// -----------------------------------------
+// == Grid settings
+// -----------------------------------------
+$wrapper: 1190;
+$columns: 12 !default;
+$grid-gutter-width: 20px !default;
+
+// Extra small screen / phone
+$screen-xs: 480px;
+$screen-xs-min: $screen-xs;
+
+// Small screen / tablet
+$screen-sm: 768px;
+$screen-sm-min: $screen-sm;
+
+// Medium screen / desktop
+$screen-md: 992px;
+$screen-md-min: $screen-md;
+
+// Large screen / wide desktop
+$screen-lg: 1230px;
+$screen-lg-min: $screen-lg;
+
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-sm-max: ($screen-md-min - 1);
+$screen-md-max: ($screen-lg-min - 1);
+
+//== wrapper sizes
+//## Define the maximum width of `.wrapper` for different screen sizes.
+
+// Small screen / tablet
+$wrapper-tablet: ((720px + $grid-gutter-width));
+// For `$screen-sm-min` and up.
+$wrapper-sm: $wrapper-tablet;
+
+// Medium screen / desktop
+$wrapper-desktop: ((940px + $grid-gutter-width));
+// For `$screen-md-min` and up.
+$wrapper-md: $wrapper-desktop;
+
+// Large screen / wide desktop
+$wrapper-large-desktop: ((1190px + $grid-gutter-width));
+// For `$screen-lg-min` and up.
+$wrapper-lg: $wrapper-large-desktop;
+
+// Centered wrapper element
+@mixin wrapper-fixed($gutter: $grid-gutter-width) {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: ($gutter / 2);
+  padding-right: ($gutter / 2);
+  @include clearfix();
+}

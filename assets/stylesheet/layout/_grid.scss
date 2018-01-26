@@ -1,0 +1,95 @@
+/*---------------------------------------*\
+  Layout/ Grid
+\*---------------------------------------*/
+
+%col {
+  float: left;
+  padding: 0 $grid-gutter-width / 2;
+  position: relative;
+}
+
+.row {
+  margin: 0 $grid-gutter-width * -0.5;
+  @include clearfix();
+}
+
+// = grid for mobile screen
+//-----------------------------------
+@for $i from 1 through $columns {
+  .col-xs-#{$i} {
+    width: $i / $columns * 100%;
+  }
+  .col-xs-push-#{$i} {
+    left: $i / $columns * 100%;
+  }
+  .col-xs-pull-#{$i} {
+    right: $i / $columns * 100%;
+  }
+  .col-xs-offset-#{$i} {
+    margin-left: $i / $columns * 100%;
+  }
+
+  .col-xs-#{$i},
+  .col-sm-#{$i},
+  .col-md-#{$i},
+  .col-lg-#{$i} {
+    @extend %col;
+  }
+}
+
+// = grid for tablet screen
+//-----------------------------------
+@media only screen and (min-width: $screen-sm-min){
+  @for $i from 1 through $columns {
+    .col-sm-#{$i} {
+      width: $i / $columns * 100%;
+    }
+    .col-sm-push-#{$i} {
+      left: $i / $columns * 100%;
+    }
+    .col-sm-pull-#{$i} {
+      right: $i / $columns * 100%;
+    }
+    .col-sm-offset-#{$i} {
+      margin-left: $i / $columns * 100%;
+    }
+  }
+}
+
+// = grid for medium screen
+//-----------------------------------
+@media only screen and (min-width: $screen-md-min){
+  @for $i from 1 through $columns {
+    .col-md-#{$i} {
+      width: $i / $columns * 100%;
+    }
+    .col-md-push-#{$i} {
+      left: $i / $columns * 100%;
+    }
+    .col-md-pull-#{$i} {
+      right: $i / $columns * 100%;
+    }
+    .col-md-offset-#{$i} {
+      margin-left: $i / $columns * 100%;
+    }
+  }
+}
+
+// = grid for large screen
+//-----------------------------------
+@media only screen and (min-width: $screen-lg-min){
+  @for $i from 1 through $columns {
+    .col-lg-#{$i} {
+      width: $i / $columns * 100%;
+    }
+    .col-lg-push-#{$i} {
+      left: $i / $columns * 100%;
+    }
+    .col-lg-pull-#{$i} {
+      right: $i / $columns * 100%;
+    }
+    .col-lg-offset-#{$i} {
+      margin-left: $i / $columns * 100%;
+    }
+  }
+}

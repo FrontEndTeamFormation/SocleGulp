@@ -1,0 +1,92 @@
+// -----------------------------------------
+// == Tools/Base
+// -----------------------------------------
+
+// = Clearfix
+// -----------------------------
+@mixin clearfix {
+
+  zoom: 1;
+
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+  &:after {
+    clear: both
+  }
+}
+
+// = Inline-block
+// -----------------------------
+@mixin inline-block() {
+  display: inline-block;
+  vertical-align: middle;
+
+  .lt-ie8 & {
+    display: inline;
+    zoom: 1;
+  }
+}
+
+// = Opacity
+// -----------------------------
+@mixin opacity($opacity) {
+  filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})");
+  opacity: $opacity;
+}
+
+// = Placeholder
+// -----------------------------
+@mixin placeholder($clr-mixin-placeholder) {
+  &::-webkit-input-placeholder {
+    color: $clr-mixin-placeholder;
+  }
+  &:-moz-placeholder {
+    color: $clr-mixin-placeholder;
+  }
+  &:-ms-input-placeholder {
+    color: $clr-mixin-placeholder;
+  }
+}
+
+// = Border-radius
+// -----------------------------
+@mixin border-radius($radius: 5px) {
+  border-radius: $radius;
+}
+
+// = reset-ul
+// -----------------------------
+@mixin reset-ul() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// = btn
+// -----------------------------
+@mixin btn($color, $bgcolor, $hover: '', $active: '') {
+  color: $color;
+  background-color: $bgcolor;
+
+  @if $hover != '' {
+    &:hover {
+     background-color: $hover;
+    }
+  }
+  @if $active != '' {
+    &:active {
+      background-color: $hover;
+    }
+  }
+}
+
+// = background-opacity
+// -----------------------------
+@mixin background-opacity($color, $opacity: 0.3) {
+  background-color: rgba($color, $opacity);
+}
+
+//@include background-opacity(#000);

@@ -1,0 +1,25 @@
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### How do I get set up? ###
+
+* First, we need our most important requirement Node.JS (To install, simply visit http://nodejs.org/)
+* Open up your command-line interface (Terminal for OSX/Ubuntu, Command Prompt, Git Bash, Node.JS command prompt for Windows)
+* Clone the project, in your command-line application type : "git clone ..."
+* To navigate to our project folder, in your command-line application type : "cd path-to/socle-gulp"
+* To install scss lint : "gem install scss_lint"
+--> If (ERROR:  Could not find a valid gem 'scss_lint' (>= 0), here is why:Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://api.rubygems.org/specs.4.8.gz)) : "gem install scss_lint --source http://api.rubygems.org"
+* To install scss lint reporter checkstyle : "gem install scss_lint_reporter_checkstyle"
+--> If (ERROR:  Could not find a valid gem 'scss_lint_reporter_checkstyle' (>= 0), here is why:Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://api.rubygems.org/specs.4.8.gz)) : "gem install scss_lint_reporter_checkstyle --source http://api.rubygems.org"
+* To install Required Plugins, in your command-line application type : "npm install"
+* To run Gulp, in your command-line application type : "gulp" && "gulp watch"
+
+### Contribution guidelines ###
+
+* Code review
+
+### Who do I talk to? ###
+
+* Repo owner
+* FRONT END team

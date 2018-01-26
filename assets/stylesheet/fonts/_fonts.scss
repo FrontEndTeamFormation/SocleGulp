@@ -1,0 +1,27 @@
+/* font-exemple
+@font-face {
+  font-family: 'font-exemple';
+  font-style: normal;
+  font-weight: 400;
+  src: local('font-exemple regular'), url(https://../../../font-exemple-regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'font-exemple';
+  font-style: normal;
+  font-weight: 400;
+  src: local('font-exemple regular'), url(https://../../../font-exemple-regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'font-exemple';
+  font-style: normal;
+  font-weight: 400;
+  src: local('font-exemple regular'), url(https://../../../font-exemple-regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'font-exemple';
+  font-style: normal;
+  font-weight: 400;
+  src: local('font-exemple regular'), url(https://../../../font-exemple-regular.svg) format('svg');
+}
+*/
