@@ -8,3 +8,226 @@
   padding: 0;
   width: 100%;
 }
+
+.layer-7 {
+	width: 1340px;
+	height: 162px;
+    background-color: #333;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.Groupe1 {
+    float: left;
+    padding: 20 px ;
+    margin: 20 px;
+}
+.Groupe2 {
+    float: right;
+    padding: 20 px ;
+    margin: 20 px ;
+}
+
+.progress-copy {
+	color: #bbb; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 5px;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.business-company {
+	color: #656565; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 5px;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+
+.home-news {
+	color: #497d04; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.home-Services {
+	color: #white; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.welcome {
+	color: #bbb; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.fresh {
+	color: #656565; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.for-you {
+	color: #656565; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.the-best {
+	color: #656565; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.our-address {
+	color: #656565; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.layer-8 {
+	width: 1340px;
+	height: 423px;
+	background-color: #5dab00;
+}
+
+.background {
+	width: 1340px;
+	height: 1446px;
+	background-color: white;
+
+}
+
+.partieA
+{
+	width: 1340px;
+	height: 1446px;
+	background-color: #f1f1f1;
+
+
+}
+.apartie {
+	color: #fff; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 40px;
+	padding: 90px ;
+	font-weight: bold;
+}
+
+.bpartie {
+	color: #fff; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 40px;
+	padding: 90px ;
+	font-weight: bold;
+}
+.cpartie {
+	color: #fff; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 40px;
+	padding: 90px ;
+	font-weight: bold;
+}
+.dpartie {
+	color: #fff; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 40px;
+	padding: 90px ;
+	font-weight: bold;
+}
+.business-planning {
+	color: #000; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.this-progress-template-goes-wi {
+	color: #696969; // text color
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-style: italic;
+}
+
+.cercle{
+  background:#60b000;
+  border-radius:50%;
+  width:60px;
+  height:60px;
+  text-align:center;
+  border:2px solid #60b000; 
+}
+
+
+.layer-8-copy {
+	width: 1340px;
+	height: 257px;
+	background-color: #0b0b0b;
+
+}
+
+.flex-container {
+  display: flex;
+  margin: 10px;
+  padding:20px;
+  font-size: 30px;
+}
+
+.welcome-dear-visitor {
+	color: #000; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 42px;
+    font-weight: bold;
+    position: relative;
+    left: 115px;
+    top: 5px;
+
+}
+
+
