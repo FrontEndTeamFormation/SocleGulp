@@ -2,7 +2,7 @@
 <!--[if IE 9]>
 <html lang="fr" class="no-js ie9"><![endif]-->
 <!--[if gt IE 9]><!-->
-<html lang="fr" class="no-js">
+<html lang="fr" class="no-js" xmlns="http://www.w3.org/1999/html">
 <!--<![endif]-->
 
 <head>
@@ -21,21 +21,22 @@
 <header class="l-header clearfix">
     <div class="wrapper">
         <div class="row">
-            <div class="col-md-2 col-sm-12 logo">
+            <div class="col-md-2 col-sm-12 col-xs-12 logo">
                 <a href="#" title="Business company" class="display-block">
                     <figure>
-                        <img src="assets/images/logo.png" alt="Logo" class="max-width"/>
+                        <img src="assets/images/logo.png" alt="Logo" class="max-width" width="289" height="60"/>
                         <figcaption>BUSINESS COMPANY</figcaption>
                     </figure>
                 </a>
             </div>
-            <div class="col-md-10 col-sm-12">
+            <div class="col-md-10 col-sm-12 col-xs-12">
                 <nav>
                     <ul>
-                        <li>
+                        <li class="active-item">
                             <a href="home.html">HOME
                                 <span>WELCOME!</span>
-                                <i></i></a></li>
+                                <i></i></a>
+                        </li>
                         <li>
                             <a href="news.html">NEWS
                                 <span>FRESH</span>
@@ -61,15 +62,76 @@
 </header>
 <!-- Fin header ! -->
 <!-- wrapper ! -->
+
+
 <!-- content ! -->
 <div class="l-content clearfix">
-    <div class="wrapper">
-        <div class="row">
-            This is the content
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="my-slider">
+                <div><img src="assets/images/slider.jpg"></div>
+                <div>your content</div>
+            </div>
         </div>
     </div>
+
+    <div class="wrapper">
+        <section>
+            <div class="row">
+
+                <div class="col-md-3">
+                    <article>
+                        <header>
+                            <img src="assets/images/A.png">Business planning
+                        </header>
+                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
+                            Lorem ipsum dolor sit Lorem ipsum dolor sit
+                            <a href="home.html">Read More</a></p>
+                    </article>
+                </div>
+
+                <div class="col-md-3">
+                    <article>
+                        <header>
+                            <img src="assets/images/B.png">Business Strategies
+                        </header>
+                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
+                            Lorem ipsum dolor sit Lorem ipsum dolor sit
+                            <a href="home.html">Read More</a></p>
+                    </article>
+                </div>
+
+                <div class="col-md-3">
+                    <article>
+                        <header>
+                            <img src="assets/images/C.png">Powerful Analytics
+                        </header>
+                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
+                            Lorem ipsum dolor sit Lorem ipsum dolor sit
+                            <a href="home.html">Read More</a></p>
+                    </article>
+                </div>
+
+                <div class="col-md-3">
+                    <article>
+                        <header>
+                            <img src="assets/images/D.png">WorldWide Solutions
+                        </header>
+                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
+                            Lorem ipsum dolor sit Lorem ipsum dolor sit
+                            <a href="home.html">Read More</a></p>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
 </div>
 <!-- Fin content ! -->
+<div class="wrapper">
+</div>
 
 <!-- footer ! -->
 <footer class="l-footer clearfix">
@@ -138,6 +200,11 @@
 <!-- Fin wrapper ! -->
 
 <script src="assets/javascript/main.min.js"></script>
+<!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<script type="text/javascript" src="assets/javascript/libs/jQuery/v2.1.1/jquery.js"></script>
+<script type="text/javascript" src="assets/javascript/plugin/slick/slick.min.js"></script>
+<script type="text/javascript" src="assets/javascript/plugin/slick/slick_config.js"></script>
 
 </body>
 

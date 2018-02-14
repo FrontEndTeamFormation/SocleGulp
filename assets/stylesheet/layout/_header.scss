@@ -16,6 +16,7 @@ $list-height: (30px, 31px, 28px, 30px, 22px);
   background-image: url("../images/header.png");
 }
 
+
 .logo {
   figure {
     margin-top: 10%;
@@ -99,6 +100,20 @@ nav {
 
     }
 
+  }
+}
+
+.active-item {
+
+  a {
+    color: #497d04;
+
+    span {
+      color: #efefef;
+    }
+    i {
+      background-position: bottom left;
+    }
   }
 }
 

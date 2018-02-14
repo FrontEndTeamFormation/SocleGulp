@@ -8,3 +8,39 @@
   padding: 0;
   width: 100%;
 }
+
+.my-slider {
+  img {
+    width: 100%;
+    height: 421px;
+  }
+}
+
+section {
+  background-color: white;
+}
+
+article {
+  margin: 35px;
+  header {
+    line-height: 0.7cm;
+    color: #000;
+    font-family: "OpenSans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    img {
+      float: left;
+    }
+  }
+  p {
+    color: #696969; // text color
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-style: italic;
+
+    a {
+      text-decoration: underline;
+      color: #696969;
+    }
+  }
+}
