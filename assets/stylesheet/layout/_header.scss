@@ -2,7 +2,7 @@
   Layout/ header
 \*---------------------------------------*/
 
-$font-family : "OpenSans", sans-serif;
+$font-family: "OpenSans", sans-serif;
 $list-icon: ('home.png', 'portfolio.png', 'profil.png', 'reglage.png', 'contact.png');
 $list-width: (36px, 31px, 24px, 30px, 32px);
 $list-height: (30px, 31px, 28px, 30px, 22px);
@@ -61,6 +61,17 @@ nav {
     &:hover a {
       color: #497d04;
     }
+
+    a:focus {
+      color: #497d04;
+      span {
+        color: #efefef;
+      }
+      i {
+        background-position: bottom left;
+      }
+    }
+
     span {
       display: block;
       color: #656565;;
@@ -82,13 +93,16 @@ nav {
     i {
       align-content: center;
       display: inline-block;
-      &:hover {
-        background-position: bottom left;
-      }
     }
-  }
+    &:hover i {
+      background-position: bottom left;
 
+    }
+
+  }
 }
+
+
 
 
 
