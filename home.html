@@ -5,39 +5,278 @@
 <html lang="fr" class="no-js">
 <!--<![endif]-->
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="A front-end template.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="assets/images/favicon.ico">
-        <title>Home Page</title>
-        <!-- Page styles -->
-        <link rel="stylesheet" media="screen" href="assets/stylesheet/style.min.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="assets/images/favicon.ico">
+    <title>Home Page</title>
+    <!-- Page styles -->
+    <link rel="stylesheet" href="assets/stylesheet/fonts/iconfont.css">
+    <link rel="stylesheet" media="screen" href="assets/stylesheet/style.css">
 
-    <body class="">
 
-        <!-- wrapper ! -->
-        <div class="wrapper">
+</head>
 
-            <!-- header ! -->
-            <header class="l-header clearfix"></header>
-            <!-- Fin header ! -->
+<body class="">
 
-            <!-- content ! -->
-            <div class="l-content clearfix"></div>
-            <!-- Fin content ! -->
+<!-- wrapper ! -->
+<!--div class="wrapper"-->
 
-            <!-- footer ! -->
-            <footer class="l-footer clearfix"></footer>
-            <!-- Fin footer ! -->
+<!-- header ! -->
+<header class="l-header clearfix">
 
+    <div class="wrapper">
+
+        <div class="row">
+            <div id="logo" class="col-md-3">
+                <a href="#">
+                    <img src="assets/images/title.png" alt="progress">
+                    <figure>BUSINESS COMPANY</figure>
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li class="active-icon">
+                        <a href="#" title="">
+                            <span class="icon-title">HOME</span>
+                            <br/>WELCOME<br/>
+                            <i class="icon-home"></i>
+                            <!--img src="assets/images/home-02.svg" onmouseover="this.src='assets/images/home-01.svg'"
+                                 onmouseout="this.src='assets/images/home-02.svg'" alt="aa" class="icon"-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" title="">
+                            <span class="icon-title">News</span>
+                            <br/>FRECH<br/>
+                            <i class="icon-pencil"></i>
+                            <!--img src="assets/images/pencil-02.svg" onmouseover="this.src='assets/images/pencil-01.svg'"
+                                 onmouseout="this.src='assets/images/pencil-02.svg'" alt="" class="icon"-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" title="">
+                            <span class="icon-title">Services</span>
+                            <br/>FOR YOU<br/>
+                            <i class="icon-note"></i>
+                            <!--img src="assets/images/note-02.svg" onmouseover="this.src='assets/images/note-01.svg'"
+                                 onmouseout="this.src='assets/images/note-02.svg'" alt="" class="icon"-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" title="">
+                            <span class="icon-title">Produits</span>
+                            <br/>THE BEST<br/>
+                            <i class="icon-reglage"></i>
+                            <!--img src="assets/images/reglage-02.svg"
+                                 onmouseover="this.src='assets/images/reglage-01.svg'"
+                                 onmouseout="this.src='assets/images/reglage-02.svg'" alt="" class="icon"-->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" title="">
+                            <span class="icon-title">Contact</span>
+                            <br/>OUR ADRESS<br/>
+                            <x></x>
+                            <i class="icon-mail"></i>
+                            <!--img src="assets/images/mail-02.svg" onmouseover="this.src='assets/images/mail-01.svg'"
+                                 onmouseout="this.src='assets/images/mail-02.svg'" alt="" class="icon"-->
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
         </div>
-        <!-- Fin wrapper ! -->
+    </div>
+</header>
+<!-- Fin header ! -->
 
-        <script src="assets/javascript/main.min.js"></script>
+<!-- content ! -->
+<!--div class="l-content clearfix">
+    <div class="centered background-green">
+        <div class="sl-content sl-display-container" style="max-width:800px">
+            <img class="mySlides" src="assets/images/slider.png" style="width:100%">
+            <img class="mySlides" src="assets/images/slider2.png" style="width:100%">
+            <img class="mySlides" src="assets/images/slider3.png" style="width:100%">
+            <div class="sl-center sl-container sl-section sl-large sl-text-white sl-display-bottommiddle"
+                 style="width:100%">
+                <span class="sl-badge demo sl-border sl-transparent sl-hover-white" onclick="currentDiv(1)"></span>
+                <span class="sl-badge demo sl-border sl-transparent sl-hover-white" onclick="currentDiv(2)"></span>
+                <span class="sl-badge demo sl-border sl-transparent sl-hover-white" onclick="currentDiv(3)"></span>
+            </div>
+        </div-->
 
-    </body>
+<!--img src="assets/images/slider.png" alt="" id="slider"-->
+<section class="slideshow">
+    <div><img class="mySlides" src="assets/images/slider.png"></div>
+    <div><img class="mySlides" src="assets/images/slider2.png"></div>
+    <div><img class="mySlides" src="assets/images/slider3.png"></div>
+</section>
+
+<div class="wrapper">
+    <div class="row">
+
+
+        <section class="block col-md-3">
+            <div class="cercle"><span class="lettre">A</span></div>
+            <h2>Business planning</h2>
+            Progress is one of free website templates created by<br/>
+            <u>TemplateMonster.com</u>, optimized for <br/>1024x768 res.<br/>
+            <a href="#" title="">Read More</a>
+        </section>
+
+        <section class="block col-md-3">
+            <div class="cercle"><span class="lettre">B</span></div>
+            <h2>Business strategies</h2>
+            <article>
+                This <u>Progress Template</u> goes with two packages – with PSD<br/>
+                source files and without<br/>
+                them.<br/>
+                <a href="#" title="">Read More</a></article>
+        </section>
+
+        <section class="block col-md-3">
+            <div class="cercle"><span class="lettre">C</span></div>
+            <h2>Powerful analytics</h2>
+            <article>
+                PSD source files are available <br/>
+                for free for registered <br/>
+                members. The basic package <br/>
+                is available for anyone.<br/>
+                <a href="#" title="">Read More</a>
+            </article>
+        </section>
+        <section class="block col-md-3">
+            <div class="cercle"><span class="lettre">D</span></div>
+            <h2>Worldwide solutions</h2>
+            <article>
+                This website template has <br/>
+                several pages: Home, News, <br/>
+                Services, Products, Contacts <br/>
+                (contact form doesn’t work).<br/>
+                <a href="#" title="">Read More</a>
+            </article>
+        </section>
+    </div>
+</div>
+
+<!--div class="clear"></div-->
+<div class="wrapper">
+    <div class="row">
+        <div id="welcome" class="col-md-8">
+            <h1>Welcome, dear visitor!</h1>
+            <hr>
+
+            <img src="assets/images/ras.png" alt="image" class="col-md-4"/>
+
+            <div class="col-md-7">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                </p>
+                <p class="gray margin-zero">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+            </div>
+        </div>
+
+        <aside id="Testimonials" class="col-md-4">
+            <h1>Testimonials</h1>
+            <div id="bubble">
+                <p>
+                    “quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ipisicing elit.”
+                </p>
+            </div>
+            <div class="clear"></div>
+            <div class="people">
+                <ul>
+                    <li>
+                        <span class="name">James Coloway,</span><br/>
+                        <span class="poste">Director</span></li>
+                    <li>
+                        <a href="#"> <img src="assets/images/down.png" alt="down"/></a>
+                        <a href="#"> <img src="assets/images/up.png" alt="up"/></a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </aside>
+    </div>
+</div>
+<!-- Fin content ! -->
+
+<!-- footer ! -->
+<footer class="l-footer clearfix">
+
+    <div class="wrapper">
+        <div class="row">
+            <div class="foot-info col-md-3" >
+                <h2>Why Us?</h2>
+                <ul>
+                    <li class="line">> dolore magna aliqua</li>
+                    <li class="line">> exercitation ullamco</li>
+                    <li class="line">> editors now use Lorem</li>
+                    <li class="line">> All the Lorem Ipsum</li>
+                </ul>
+            </div>
+            <div class="foot-info col-md-3" >
+                <h2>Adress</h2>
+                <ul>
+                    <li class="line">Country: Tunisia</li>
+                    <li class="line">City: Sfax</li>
+                    <li class="line">Phone: (+216) 11 11 11 11</li>
+                    <li class="line">Email: contact@mail.com</li>
+                </ul>
+            </div>
+
+            <div class="foot-info foot-social col-md-3" >
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><img src="assets/images/facebook.png" alt=""/></li>
+                    <li><img src="assets/images/twitter.png" alt=""/></li>
+                    <li><img src="assets/images/linkedin.png" alt=""/></li>
+                    <li><img src="assets/images/delicious.png" alt=""/></li>
+                </ul>
+                <ul class="scname">
+                    <li><a href="" title="">Facebook</a></li>
+                    <li><a href="" title="">Twitter</a></li>
+                    <li><a href="" title="">LinkedIn</a></li>
+                    <li class="dernier"><a href="" title="">Delicious</a></li>
+                </ul>
+            </div>
+            <div class="foot-info col-md-2" >
+                <h2>Newsletter</h2>
+                <form action="#">
+                    <input type="text" placeholder="Type Your Email Here ">
+                    </br></br>
+                    <input type="submit" class="sub" style="float: right">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+<!-- Fin footer ! -->
+
+<!-- Fin wrapper ! -->
+<script src="assets/javascript/libs/jQuery/v2.1.1/jquery.js"></script>
+<script src="assets/javascript/slick.js"></script>
+<script src="assets/javascript/main.min.js"></script>
+
+
+</body>
 
 </html>

@@ -2,9 +2,15 @@
 // -----------------------------------------
 // == Site settings-
 // -----------------------------------------
-
+$fontFamily : "OpenSans", sans-serif;
+$edgesPadding:220px;
+//---------------
+$Hiconplace:$edgesPadding+440;
+$Viconplace:75px;
 // = Fonts
 // -----------------------------
+
+
 $font: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $font-size-base: 16;
 $colorbase: #000;

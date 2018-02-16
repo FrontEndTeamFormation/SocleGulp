@@ -4,6 +4,10 @@
 
 // = Clearfix
 // -----------------------------
+@mixin marg-pad-zero(){
+  margin: 0px auto;
+  padding: 0px;
+}
 @mixin clearfix {
 
   zoom: 1;

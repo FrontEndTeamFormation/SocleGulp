@@ -2,9 +2,215 @@
   Layout/ content
 \*---------------------------------------*/
 
+.sl-content {
+  max-width: 980px;
+  margin: auto !important
+}
+
+.sl-rest {
+  overflow: hidden !important
+}
+
+.sl-display-container {
+  position: relative !important
+}
+
+.mySlides {
+  display: none
+}
+
+.sl-left, .sl-right, .sl-badge {
+  cursor: pointer !important
+}
+
+.sl-badge {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  // padding-left:8px;
+  // padding-right:8px;
+  text-align: center;
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+  padding: 0;
+
+}
+
+.sl-border {
+  border: 1px solid #ccc !important
+}
+
+.sl-transparent, .sl-hover-none:hover {
+  background-color: transparent !important
+}
+
+.sl-hover-white:hover {
+  color: #000 !important;
+  background-color: #fff !important
+}
+
+/*000000000000000000000000000000000000000000000000000000000000000000000*/
 .l-content {
   display: block;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  @include marg-pad-zero();
 }
+
+.centered {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background-green {
+  background: linear-gradient(#305d00, #3e7900);
+  object-fit: cover;
+}
+
+/* ----------- ARTICLES -----------*/
+
+.block {
+  color: #696969;
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  font-style: italic;
+  width: 250px;
+  float: left;
+  .cercle {
+    background: #60b000;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    float: left;
+    margin-right: 10px;
+    .lettre {
+      color: #fff;
+      font-family: "OpenSans", sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      margin-left: 15px;
+    }
+  }
+  h2 {
+    color: #000;
+    font-family: "OpenSans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+  a {
+    color: #60b000;
+  }
+}
+
+/* ----------------------*/
+.margin-zero {
+  margin: 0px !important;
+}
+
+.gray {
+  color: #696969;
+}
+
+.clear {
+  clear: both;
+}
+
+#presentation h3 {
+  font-family: OpenSansSemibold;
+  font-size: 40px;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+
+#welcome {
+
+  float: left;
+
+
+  hr {
+    border: none;
+    border-top: 1px solid #CACACA;
+    width: 700px;
+    margin-left: 0;
+  }
+
+  img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    float: left;
+    width: 242px;
+    height: 190px;
+    margin:0px;
+  }
+  p {
+    padding-right: 25px;
+    margin-top: 0px;
+    font-size: 14px;
+    font-style: italic;
+
+  }
+}
+
+#bubble {
+  background: url("../images/bubble.png");
+  width: 222px;
+  height: 169px;
+}
+
+#Testimonials {
+
+  //float: left;
+
+  margin-bottom: 50px;
+
+  p {
+    background: url("../images/bubble.png");
+    padding-top: 15%;
+    width: 180px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  .people {
+    float: left;
+    margin: 0px 15px 0 10px;
+    ul {
+      li {
+        float: left;
+        .name {
+          font-weight: bold;
+          margin-right: 10px
+        }
+        .poste {
+          @extend .gray;
+          font-size: medium;
+        }
+      }
+
+    }
+
+  }
+  img {
+    margin-top: 12%;
+  }
+
+}
+
+.slideshow {
+  overflow: hidden;
+  width: 100%;
+  height: 550px;
+  display: block;
+  img {
+    width: 100%;
+    height: 550px;
+  }
+}
+
+
+
+

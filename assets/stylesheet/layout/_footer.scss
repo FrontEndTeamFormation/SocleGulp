@@ -3,8 +3,93 @@
 \*---------------------------------------*/
 
 .l-footer {
+// background: url("../images/facebook.png") $Hiconplace  $Viconplace, url("../images/twitter.png") $Hiconplace  $Viconplace+33, url("../images/linkedin.png") $Hiconplace  $Viconplace+66, url("../images/delicious.png") $Hiconplace  $Viconplace+99 , url("../images/footer.png");
+//  background-repeat:  no-repeat ,no-repeat ,no-repeat , no-repeat,repeat-x;
+  // background-position:10px,10px ,$Hiconplace px $Viconplace+30 px , 0px 0px ;
+  background: url("../images/footer.png");
+  background-repeat: repeat-x;
   display: block;
   margin: 0;
   padding: 0;
   width: 100%;
+
+}
+
+.social{
+margin-left: 30px;
+}
+
+@mixin btnColor($p1,$p2){
+  background-image: -webkit-linear-gradient(top, $p1, $p1);
+  background-image: -moz-linear-gradient(top, $p1, $p1);
+  background-image: -ms-linear-gradient(top, $p1, $p1);
+  background-image: -o-linear-gradient(top, $p1, $p1);
+  background-image: linear-gradient(to bottom, $p1, $p1);
+}
+.sub{
+  margin-top: 10px;
+  @include btnColor(#c9c9c9,#9c9c9c);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  &:hover{
+    @include btnColor(#ebebeb,#bababa);
+    text-decoration: none;
+  }
+}
+
+.info{
+
+    margin-top: 25px  ;
+    margin-left: $edgesPadding;
+    color: white;
+  ul{
+    li{
+
+       line-height: 0px;
+        margin-right: 20px;
+        float: left;
+        width: 200px;
+      a{
+        color: white;
+      }
+      hr{
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+.foot-info{
+  color: white ;
+  .line{
+    width: 80%;
+    color: #cccccc;
+    font-size: 14px;
+    margin: 4px;
+    border-top:1px solid #c9c9c9;
+  }
+}
+
+.foot-social {
+    a{
+      color: #c9c9c9;
+
+      &:active{
+        color: #c9c9c9;
+      }
+    }
+  .scname{
+    width: 72%;
+  }
+  ul {
+    float: left;
+    margin-right: 5px;
+    li {
+      border-top: 1px solid #c9c9c9;
+    }
+  }
 }
