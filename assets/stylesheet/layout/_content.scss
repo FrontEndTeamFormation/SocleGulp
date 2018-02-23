@@ -4,6 +4,15 @@
 $primary-font: "OpenSans", sans-serif;
 $secondary-font: "Trebuchet MS";
 
+@mixin placeholder {
+  opacity: .5; /* layer alpha */
+  color: #696969; /* text color */
+  font-family: $secondary-font;
+  font-size: 14px;
+  font-style: italic;
+  text-indent: 10px;
+}
+
 .l-content {
   display: block;
   margin: 0;
@@ -25,19 +34,16 @@ body {
 
 .h1 {
   color: #000; /* text color */
-  font-family: "OpenSans", sans-serif;
+  font-family: $primary-font;
   font-size: 42px;
   font-weight: bold;
+  margin-left: 10px;
+
 }
 
 .my-article {
   margin: 10px;
-  .h1 {
-    color: #000; /* text color */
-    font-family: "OpenSans", sans-serif;
-    font-size: 42px;
-    font-weight: bold;
-  }
+
   .grey-img {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -55,12 +61,14 @@ body {
     font-size: 28px;
     font-weight: bold;
     h1 {
+      padding-left: 2cm;
       @extend header;
-
+      margin-top: 0px;
     }
     img {
       float:left;
-      clear:left;
+      clear: left;
+
     }
   }
   p {
@@ -104,9 +112,10 @@ aside {
 
   header {
     color: #000; /* text color */
-    font-family: "OpenSans", sans-serif;
+    font-family: $primary-font;
     font-size: 42px;
     font-weight: bold;
+    margin-left: 17px;
   }
   #signature {
     margin: 5px 0px 20px 30px;
@@ -121,4 +130,29 @@ aside {
       max-height: 100%;
     }
   }
+}
+
+.my-section{
+  @extend .my-article;
+  padding-top: 20px;
+  margin-top: 18px;
+  margin-bottom: 60px;
+  border-top: 1px solid rgba(44, 44, 44,0.1);
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  @include placeholder;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  @include placeholder;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  @include placeholder;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  @include placeholder;
 }
