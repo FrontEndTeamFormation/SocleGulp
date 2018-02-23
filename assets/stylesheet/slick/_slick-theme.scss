@@ -136,7 +136,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-dots {
     position: absolute;
-    bottom: -25px;
+    bottom: 40px;
     list-style: none;
     display: block;
     text-align: center;
@@ -177,7 +177,8 @@ $slick-opacity-not-active: 0.25 !default;
                 width: 20px;
                 height: 20px;
                 font-family: $slick-font-family;
-                font-size: $slick-dot-size;
+                //font-size: $slick-dot-size;
+                font-size: 20px;
                 line-height: 20px;
                 text-align: center;
                 color: $slick-dot-color;

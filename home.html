@@ -13,10 +13,10 @@
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="assets/images/favicon.ico">
     <title>Home Page</title>
     <!-- Page styles -->
+    <link rel="stylesheet" href="assets/stylesheet/fonts/font-style.css">
     <link rel="stylesheet" media="screen" href="assets/stylesheet/style.css">
 </head>
-
-<body class="">
+<body>
 <!-- header ! -->
 <header class="l-header clearfix">
     <div class="wrapper">
@@ -35,24 +35,25 @@
                         <li class="active-item">
                             <a href="home.html">HOME
                                 <span>WELCOME!</span>
-                                <i></i></a>
+                                <i class="icon-home"></i></a>
                         </li>
                         <li>
                             <a href="news.html">NEWS
                                 <span>FRESH</span>
-                                <i></i></a>
+                                <i class="icon-pencil"></i></a>
                         </li>
                         <li><a href="services.html">SERVICES
                             <span>FOR YOU</span>
-                            <i></i></a>
+                            <i class="icon-note"></i>
+                        </a>
                         </li>
                         <li><a href="product.html">PRODUCTS
                             <span>THE BEST</span>
-                            <i></i></a>
+                            <i class="icon-reglage"></i></a>
                         </li>
                         <li><a href="contact.html">CONTACTS
                             <span>OUR ADRESSE</span>
-                            <i></i></a>
+                            <i class="icon-mail"></i></a>
                         </li>
                     </ul>
                 </nav>
@@ -67,71 +68,124 @@
 <!-- content ! -->
 <div class="l-content clearfix">
 
+    <!-- slider -->
     <div class="row">
         <div class="col-md-12">
             <div class="my-slider">
-                <div><img src="assets/images/slider.jpg"></div>
+                <div><img src="assets/images/slider.png"></div>
                 <div>your content</div>
             </div>
         </div>
     </div>
+    <!-- fin slider -->
 
     <div class="wrapper">
-        <section>
-            <div class="row">
 
-                <div class="col-md-3">
-                    <article>
-                        <header>
-                            <img src="assets/images/A.png">Business planning
-                        </header>
-                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
-                            Lorem ipsum dolor sit Lorem ipsum dolor sit
-                            <a href="home.html">Read More</a></p>
-                    </article>
-                </div>
-
-                <div class="col-md-3">
-                    <article>
-                        <header>
-                            <img src="assets/images/B.png">Business Strategies
-                        </header>
-                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
-                            Lorem ipsum dolor sit Lorem ipsum dolor sit
-                            <a href="home.html">Read More</a></p>
-                    </article>
-                </div>
-
-                <div class="col-md-3">
-                    <article>
-                        <header>
-                            <img src="assets/images/C.png">Powerful Analytics
-                        </header>
-                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
-                            Lorem ipsum dolor sit Lorem ipsum dolor sit
-                            <a href="home.html">Read More</a></p>
-                    </article>
-                </div>
-
-                <div class="col-md-3">
-                    <article>
-                        <header>
-                            <img src="assets/images/D.png">WorldWide Solutions
-                        </header>
-                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
-                            Lorem ipsum dolor sit Lorem ipsum dolor sit
-                            <a href="home.html">Read More</a></p>
-                    </article>
-                </div>
-
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <article class="my-article">
+                    <header>
+                        <img src="assets/images/A.png">
+                        <h1>Business planning</h1>
+                    </header>
+                    <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
+                        Lorem ipsum dolor sit Lorem ipsum dolor sit
+                        <a href="home.html">Read More</a></p>
+                </article>
             </div>
-        </section>
+
+            <div class="col-md-3 col-sm-12">
+                <article class="my-article">
+                    <header>
+                        <img src="assets/images/B.png">Business Strategies
+                    </header>
+                    <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
+                        Lorem ipsum dolor sit Lorem ipsum dolor sit
+                        <a href="home.html">Read More</a></p>
+                </article>
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+                <article class="my-article">
+                    <header>
+                        <img src="assets/images/C.png">Powerful Analytics
+                    </header>
+                    <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
+                        Lorem ipsum dolor sit Lorem ipsum dolor sit
+                        <a href="home.html">Read More</a></p>
+                </article>
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+                <article class="my-article">
+                    <header>
+                        <img src="assets/images/D.png">WorldWide Solutions
+                    </header>
+                    <p>Lorem ipsum dolor sit Lorem ipsum dolor sit
+                        Lorem ipsum dolor sit Lorem ipsum dolor sit
+                        <a href="home.html">Read More</a></p>
+                </article>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-9">
+                <div class="h1"> Welcome, dear visitors !</div>
+                <div class="row">
+                    <article class="my-article">
+                        <div class="col-md-4">
+                            <header>
+                                <img class="grey-img" src="assets/images/article.png" width="221px" height="200px">
+                            </header>
+                        </div>
+                        <div class="col-md-8">
+                            <p>
+                                Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor
+                                sit
+                                Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor
+                                sitLorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor
+                                sit Lorem, ipsum dolor sit Lorem ipsum.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <!--
+                                    </article>
+                -->
+            </div>
+
+            <aside class="col-md-3">
+                <header> Testimonials</header>
+                <div id="bg-aside">
+                    <div id="aside-text">
+                        "Lorem ipsum dolor
+                        Lorem ipsum dolor
+                        Lorem ipsum dolor
+                        Lorem ipsum dolor
+                        Lorem ipsum dolor
+                        Lorem ipsum dolor Lorem ipsum dolor "
+                    </div>
+                </div>
+                <div id="triangle"></div>
+                <div id="signature">
+                    <img src="assets/images/arrows.png">
+                    James Coloway, </br>
+                    Director
+                </div>
+            </aside>
+        </div>
+
+
     </div>
 
 </div>
 <!-- Fin content ! -->
 <div class="wrapper">
 </div>
+
 
 <!-- footer ! -->
 <footer class="l-footer clearfix">
