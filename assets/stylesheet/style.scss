@@ -37,9 +37,13 @@
 
 // = Modules
 // ------------------------
-
+@import 'modules/header-nav';
+@import 'modules/body-slideshow';
+@import 'modules/body-blocs';
+@import 'modules/body-aside';
+@import 'modules/body-welcome-article';
 
 // = SLICK
-// ------------------------
-@import 'layout/slick';
-@import 'layout/slick-theme';
+// ----------------------------
+@import 'modules/slick';
+@import 'modules/slick-theme';

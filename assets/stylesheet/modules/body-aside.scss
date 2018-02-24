@@ -1,0 +1,51 @@
+.gray {
+  color: #696969;
+}
+.Testimonials {
+
+  .bubble {
+    background: url("../images/bubble.png");
+    width: 222px;
+    height: 169px;
+  }
+
+  margin-bottom: 50px;
+
+  p {
+    background: url("../images/bubble.png");
+    padding-top: 15%;
+    width: 180px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  .people {
+    float: left;
+    margin: 0px 15px 0 10px;
+    ul {
+      li {
+        float: left;
+        .name {
+          font-weight: bold;
+          margin-right: 10px
+        }
+        .poste {
+          @extend .gray;
+          font-size: medium;
+        }
+      }
+
+    }
+
+  }
+  img {
+    margin-top: 12%;
+  }
+
+}
+
+
+
+
+

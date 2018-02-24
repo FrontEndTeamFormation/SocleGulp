@@ -1,0 +1,29 @@
+.welcome {
+
+  float: left;
+
+
+  hr {
+    border: none;
+    border-top: 1px solid #CACACA;
+    width: 90%;
+    margin-left: 0;
+  }
+
+  img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    float: left;
+    width: 242px;
+    height: 190px;
+    margin:0px;
+  }
+  p {
+    //padding-right: 25px;
+    width: 90%;
+    margin-top: 0px;
+    font-size: 14px;
+    font-style: italic;
+
+  }
+}

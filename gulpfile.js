@@ -32,7 +32,9 @@ gulp.task('stylesheet', function() {
 gulp.task('javascript', function() {
   return gulp.src(['assets/javascript/libs/headjs/head.core.js',
     'assets/javascript/libs/jQuery/v2.1.1/jquery.js',
+      'assets/javascript/libs/slick/slick.js',
     'assets/javascript/modules/test.js',
+      'assets/javascript/modules/slick.js',
     'assets/javascript/modules/run.js'])
     .pipe(concat('main.js'))
     .pipe(rename({ suffix: '.min' }))

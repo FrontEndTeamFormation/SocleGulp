@@ -1,0 +1,33 @@
+.block {
+  color: #696969;
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  font-style: italic;
+  width: 250px;
+  float: left;
+  .cercle {
+    background: #60b000;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    float: left;
+    margin-right: 10px;
+    .lettre {
+      color: #fff;
+      font-family: "OpenSans", sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      margin-left: 15px;
+    }
+  }
+  h3 {
+    color: #000;
+    font-family: "OpenSans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+  a {
+    color: #60b000;
+  }
+}
