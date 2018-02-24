@@ -8,3 +8,177 @@
   padding: 0;
   width: 100%;
 }
+
+.layer-7 {
+	width: 100%;
+	height: 140px;
+	background-color: #0f0f0f;
+	
+}
+
+.progress-copy {
+	color: #bbb; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+	
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.business-company {
+	color: #656565; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 35px;
+	
+	font-weight: bold;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.home-news {
+	color: #497d04; // text color
+	font-family: "OpenSans", sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	@include text-shadow(1px 1px 0 #000); // drop shadow
+}
+
+.groupe1 {
+	float: right;
+	margin-right : 200px;
+	margin-top: 25px;
+	background-color: #0f0f0f;
+	/*padding :20px;*/
+}
+
+.groupe2 {
+	float: left;
+	margin-left: 60px;
+	/*padding : 20px;*/
+}
+
+
+      
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f0f0f;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  #656565;
+    font-family: "OpenSans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #000;
+}
+
+li a:hover {
+    background-color: #111;
+    color: #326100;
+
+}
+
+
+
+.icone {
+	padding: 10px;
+}
+
+
+
+.layer-7-copy{
+	background-color: #336200;
+	 display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+	height: 450px;
+}
+
+/********************************** les images slides ************************/
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+
+
+.slider-container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden; 
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+
+  
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 .2em 1em;
+  &:hover {
+    background: red;
+  }
+}
+
+.slide {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s .75s;
+}
+
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left .65s ease-out;
+}
+
+.slide-1 {
+  background-image: url("http://templates.websitetemplatesonline.com/Progress-business/images/img1.jpg");
+}
+.slide-2 {
+  background-image: url("http://textvending.com/images/img3.jpg");
+}
+.slide-3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg43NsCP5AqjNnIyLnxCHBx3SztyLZ9AybYI2ZyJG-0xvxjBx4");
+}
+.slide-4 {
+  background-image: url("http://textvending.com/images/img2.jpg");
+}
