@@ -11,18 +11,15 @@
 @import 'tools/layout-settings';
 @import 'tools/mixins';
 @import 'tools/functions';
-
 // = Base
 // ------------------------
 @import 'base/normalize';
 @import 'base/base';
 @import 'base/helpers';
 @import 'base/form';
-
 // = fonts
 // ------------------------
 @import 'fonts/fonts';
-
 // = Layout
 // ------------------------
 @import 'layout/wrapper';
@@ -30,11 +27,7 @@
 @import 'layout/header';
 @import 'layout/content';
 @import 'layout/footer';
-
 // = Libs
 // ------------------------
-
-
 // = Modules
 // ------------------------
-
