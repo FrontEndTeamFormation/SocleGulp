@@ -1,10 +1,49 @@
 /*---------------------------------------*\
   Layout/ footer
 \*---------------------------------------*/
+$font-family: "OpenSans", sans-serif;
 
 .l-footer {
   display: block;
   margin: 0;
   padding: 0;
   width: 100%;
+  background-image: url("../images/footer.jpg");
+
 }
+
+section {
+  margin-top: 50px;
+
+  h4{
+    color: #fff; // text color
+    font-family: $font-family;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  li {
+     margin: 15px;
+    font-family: "Adobe Song Std L";
+    border-top: 1px solid #888;
+
+  }
+  a {color: #696969; // text color
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    margin: 15px;
+
+
+  }
+  span{
+    margin-right: 15px;
+   }
+  img{
+    margin-right: 15px;
+    width: 10%;
+  }
+  #btn{
+    font-weight:bold;
+margin-left: 3cm;
+  margin-top: 7px;}
+    }

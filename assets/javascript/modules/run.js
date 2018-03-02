@@ -15,4 +15,9 @@ jQuery(document).ready(function($) {
      */
     window.test.init();
 
+    /*
+     * start slidergu  module
+     */
+    window.slider.init();
+
 });

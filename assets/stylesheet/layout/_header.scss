@@ -2,9 +2,118 @@
   Layout/ header
 \*---------------------------------------*/
 
+$font-family: "OpenSans", sans-serif;
+/*$list-icon: ('home.png', 'portfolio.png', 'profil.png', 'reglage.png', 'contact.png');
+$list-width: (36px, 31px, 24px, 30px, 32px);
+$list-height: (30px, 31px, 28px, 30px, 22px);*/
+
 .l-header {
   display: block;
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 162px;
+  background-image: url("../images/header.jpg");
+
 }
+
+.logo {
+  figure {
+    margin-top: 20%;
+  }
+  figcaption {
+    line-height: 0.5cm;
+    font-size: 17px;
+    color: #656565;
+    font-family: $font-family;
+    font-weight: bold;
+
+  }
+}
+
+.display-block {
+  display: block;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+nav {
+
+  display: block;
+  margin-left: 30%;
+  margin-top: 3%;
+
+  li {
+
+    text-align: center;
+    float: left;
+    margin: 15px;
+    font-family: $font-family;
+
+    a {
+      display: block;
+      color: #bbb; // text color
+      font-size: 21px;
+      font-weight: bold;
+      text-shadow: 1px 1px 0 #000; // drop shadow
+    }
+
+    &:hover a {
+      color: #497d04;
+    }
+
+    a:focus {
+      color: #497d04;
+      span {
+        color: #efefef;
+      }
+      i {
+        color: white;
+      }
+    }
+
+    span {
+      display: block;
+      color: #656565;;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    &:hover span {
+      color: #efefef;
+    }
+
+    i {
+      align-content: center;
+      display: inline-block;
+      color: #656565;
+    }
+    &:hover i {
+      color: white;
+    }
+
+  }
+}
+
+.active-item {
+
+  a {
+    color: #497d04;
+
+    span {
+      color: #efefef;
+    }
+    i {
+      color: white;
+    }
+  }
+}
+
+
+
+
+
+
+
+

@@ -13,28 +13,217 @@
         <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="assets/images/favicon.ico">
         <title>Home Page</title>
         <!-- Page styles -->
-        <link rel="stylesheet" media="screen" href="assets/stylesheet/style.min.css">
+        <link rel="stylesheet" media="screen" href="assets/stylesheet/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     </head>
 
-    <body class="">
+    <body id="body">
 
-        <!-- wrapper ! -->
-        <div class="wrapper">
+    <header class="l-header clearfix"  >
+            <div class="wrapper">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 col-xs-12 logo">
+                    <a href="#" title="Business company" class="display-block">
+                        <figure>
+                            <img src="assets/images/logo.jpg" alt="Logo" class="max-width" width="289" height="60"/>
+                            <figcaption>BUSINESS COMPANY</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-md-10 col-sm-12 col-xs-12">
+                    <nav>
+                        <ul>
+                            <li class="active-item">
+                                <a href="home.html">HOME
+                                    <span>WELCOME!</span>
+                                    <i class="fa fa-home"></i></a>
+                            </li>
+                            <li>
+                                <a href="news.html">NEWS
+                                    <span>FRESH</span>
+                                    <i class="fa fa-pencil"></i></a>
+                            </li>
+                            <li><a href="services.html">SERVICES
+                                <span>FOR YOU</span>
+                                <i class="fa fa-file"></i>
+                            </a>
+                            </li>
+                            <li><a href="product.html">PRODUCTS
+                                <span>THE BEST</span>
+                                <i class="fa fa-cog"></i></a>
+                            </li>
+                            <li><a href="contact.html">CONTACTS
+                                <span>OUR ADRESSE</span>
+                                <i class="fa fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
 
-            <!-- header ! -->
-            <header class="l-header clearfix"></header>
-            <!-- Fin header ! -->
+    </header>
+    <!-- Fin header ! -->
 
             <!-- content ! -->
-            <div class="l-content clearfix"></div>
+            <div class="l-content clearfix" >
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="assets/images/img1.jpg" alt="Los Angeles" style="width:100%;">
+                            </div>
+
+                            <div class="item">
+                                <img src="assets/images/img2.jpg" alt="Chicago" style="width:100%;">
+                            </div>
+
+                            <div class="item">
+                                <img src="assets/images/img3.jpg" alt="New york" style="width:100%;">
+                            </div>
+                        </div>
+
+
+
+
+                </div>
+                <div class="wrapper">
+                    <div class="row">
+
+                        <section class="col-md-3" >
+                            <h4 ><img src="assets/images/A.jpg" alt="">Business Planning</h4>
+                            <p class="pad_bot1">Progress is one of <a href="http://blog.templatemonster.com/free-website-templates/" target="_blank">free website templates</a> created by TemplateMonster.com, optimized for 1024x768 res.</p>
+                            <a href="#" class="link1">Read More</a>
+
+                        </section>
+                        <section class="col-md-3" >
+                            <h4 ><img src="assets/images/A.jpg" alt="">Business strategies</h4>
+                            <p class="pad_bot1">This <a href="http://blog.templatemonster.com/2011/07/11/free-website-template-slider-typography/">Progress Template</a> goes with two packages – with PSD source files and without them.</p>
+                            <a href="#" class="link1">Read More</a>
+
+                        </section>
+                        <section class="col-md-3" >
+                            <h4 ><img src="assets/images/A.jpg" alt="">Powerful analytics</h4>
+                            <p class="pad_bot1">PSD source files are available for free for registered members. The basic package is available for anyone.</p>
+                            <a href="#" class="link1">Read More</a>
+
+                        </section>
+
+                        <section class="col-md-3" >
+                            <h4 ><img src="assets/images/A.jpg" alt="">Worldwide solutions</h4>
+                            <p class="pad_bot1">This website template has several pages: Home, News, Services, Products, Contacts (contact form doesn’t work).</p>
+                            <a href="#" class="link1">Read More</a>
+
+                        </section>
+
+                    </div>
+
+                </div>
+                <div class="wrapper">
+<div class="row" id="row2">
+    <h2 class="col-md-10">Welcome, dear visitor!</h2>
+    <h3 class="col-md-2">Testimonials </h3>
+
+
+</div>
+    <section class="col-md-4" >
+        <figure  ><img   src="assets/images/page1_img1.jpg" alt=""></figure>
+    </section>
+    <div class="col-md-6">
+
+        <p class="pad_bot1">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
+        <p>
+            Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+
+    </div>
+
+                    <div class="col-md-2">
+                    <img src="assets/images/zone.jpg" alt="">
+
+                    <span><strong >James Coloway,</strong> <br>
+								Director</span>
+
+                     <a href="#">    <img src="assets/images/fleche.jpg" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+                <a href="#" class="down"></a>
+            </div>
+                </div>
             <!-- Fin content ! -->
 
             <!-- footer ! -->
-            <footer class="l-footer clearfix"></footer>
+            <footer class="l-footer clearfix">
+                <div class="wrapper">
+                    <div class="row">
+
+                        <section class="col-md-3">
+                            <h4>Why Us?</h4>
+                            <ul class="list1">
+                                <li><a href="#">Lorem ipsum dolor sit</a></li>
+                                <li><a href="#">Dmet, consectetur</a></li>
+                                <li><a href="#">Adipisicing elit eiusmod </a></li>
+                                <li><a href="#">Tempor incididunt ut</a></li>
+                                <li></li>
+
+                            </ul>
+                        </section>
+
+                        <section class="col-md-3">
+                            <h4>Follow us?</h4>
+                            <ul class="address">
+                                <li><span>Country:</span>Tunisia</li>
+                                <li><span>City: </span>   Sfax</li>
+                                <li><span>Phone:</span>(+216) 11 11 11 11</li>
+                                <li><span>Email:</span><a href="mailto:">contact@gmail.com</a></li>
+                                <li></li>
+
+                            </ul>
+                        </section>
+                        <section class="col-md-3">
+                            <h4>Follow Us</h4>
+                            <ul id="icons">
+
+                                <li><a href="#"><img src="assets/images/icon1.png" alt="">Facebook</a></li>
+                                <li><a href="#"><img src="assets/images/icon2.png" alt="">Twitter</a></li>
+                                <li><a href="#"><img src="assets/images/icon3.png" alt="">LinkedIn</a></li>
+                                <li><a href="#"><img src="assets/images/icon4.png" alt="">Delicious</a></li>
+                                <li></li>
+                            </ul>
+                        </section>
+                        <section class="col-md-3">
+                            <h4>Newsletter</h4>
+                            <form id="newsletter" method="post">
+                                <div>
+                                    <div class="wrapper">
+                                        <input class="input" type="text" value="Type Your Email Here"  onblur="if(this.value=='') this.value='Type Your Email Here'" onfocus="if(this.value =='Type Your Email Here' ) this.value=''" >
+                                    </div>
+                                    <input id="btn" type="submit" value="Suscribe">
+                                </div>
+                            </form>
+
+                            </ul>
+                        </section>
+                    </div>
+
+                </div>
+
+            </footer>
+
+
             <!-- Fin footer ! -->
 
-        </div>
-        <!-- Fin wrapper ! -->
 
         <script src="assets/javascript/main.min.js"></script>
 

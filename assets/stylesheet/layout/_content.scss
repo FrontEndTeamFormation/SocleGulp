@@ -1,10 +1,62 @@
 /*---------------------------------------*\
   Layout/ content
 \*---------------------------------------*/
+ $font-family: "OpenSans", sans-serif;
 
 .l-content {
   display: block;
   margin: 0;
   padding: 0;
   width: 100%;
+
+h2{
+  border-bottom: 1px solid #888;
+
+}
+section {
+  h4 {
+    color: #000 ;// text color
+    font-family: $font-family;
+    font-size: 28px;
+    font-weight: bold;
+
+    img{
+      width: 20%;
+    }
+  }
+  h1 {
+    color: #000; // text color
+    font-family: $font-family;
+    font-size: 42px;
+    font-weight: bold;
+
+  }
+
+  figure{
+
+    img{
+      width: 100%;
+      margin-top: -50px;
+      margin-bottom: 50px;
+    }
+  }
+
+}
+
+  #row2 {
+
+    p {
+      color: #000; // text color
+      font-family: "Trebuchet MS";
+      font-size: 14px;
+      font-style: italic;
+
+    }
+  }
+
+
+ }
+
+#body{
+  overflow-x:hidden;
 }
